@@ -15,4 +15,5 @@ Hover over each movie title to reveal three magical scenes with smooth floating 
 ⚙️ **JavaScript** — controls GIF interactivity  
 
 ## 🌈 Preview  
-![Preview](https://github.com/user-attachments/assets/cbdd361a-0d23-4faa-b86d-f994c3c5050a)
+https://github.com/user-attachments/assets/c2f4d0c3-56dc-469e-9787-68c14ba550e3
+
