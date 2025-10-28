@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4c00ff, #8c1aff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  width: 700px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 20px 0;
+  color: #4c00ff;
+}
+
+.disney-list {
+  list-style: none;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.disney-list li {
+  margin: 18px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.disney-list li:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+/* Floating GIFs */
+.scene-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.scene-gif {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: absolute;
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
