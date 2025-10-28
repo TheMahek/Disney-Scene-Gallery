@@ -12,7 +12,7 @@ Hover over each movie title to reveal three magical scenes with smooth floating 
 ## 🧩 Technologies Used  
 🧱 **HTML5** — structure of the gallery  
 💅 **CSS3** — styling and hover animations  
-⚙️ **JavaScript (Vanilla JS)** — controls GIF interactivity  
+⚙️ **JavaScript** — controls GIF interactivity  
 
 ## 🌈 Preview  
 ![Preview](https://github.com/user-attachments/assets/cbdd361a-0d23-4faa-b86d-f994c3c5050a)
